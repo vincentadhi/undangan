@@ -1,4 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Invitation</title>
+    
+
+  </head>
+    
+  <body>
+  <html>
 <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heikm/style.css" rel="stylesheet" type="text/css" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,7 +96,7 @@
   cancelButtonText: '' + iniwarna2,
 });
 if(warna){
-    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna1 + ' kita ke gereja bareng ya 🤣!', imageUrl: '' + fotostiker4.src,});
+    await swals.fire({title: 'Mau gak ke Gereja Bareng ?', text: 'Kalo kamu pilih ' + iniwarna1 + ' kamu mau yaa ke gereja bareng  🤣!', imageUrl: '' + fotostiker4.src,});
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna ' + iniwarna1 + '?', 
     text: 'Atau mau ganti warna aja nih?', 
@@ -103,7 +114,7 @@ if(warna2){
 }
 //Selingan
   } else {
-    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna2 + ' berarti besok kita ke gereja bareng 🤣!', imageUrl: '' + fotostiker4.src,});
+    await swals.fire({title: 'Mau gak ke Gereja Bareng ?', text: 'Kalo kamu pilih ' + iniwarna2 + ' berarti kamu mau yaa ke gereja bareng aku 🤣!', imageUrl: '' + fotostiker4.src,});
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna ' + iniwarna2 + '?',  
     text: 'Atau mau ganti warna aja nih?', 
@@ -113,7 +124,7 @@ if(warna2){
     cancelButtonText: 'Yakin',
 });
 if(warna2){    
-    await swals.fire({title: 'Oke, memilih ' + iniwarna1 + '!', text: 'Sama aja sih sebenernya, tapi setelah ke gereja jalan yaa kita 😜', imageUrl: '' + fotostiker7.src,});
+    await swals.fire({title: 'Oke, kamu pilih ' + iniwarna1 + '!', text: 'Sama aja sih sebenernya, tapi setelah ke gereja jalan yaa kita 😜', imageUrl: '' + fotostiker7.src,});
     mulainama();
   } else {
     await swals.fire({title: 'Oke!', text: 'bantu isi form ini yaa 😄❤️', imageUrl: '' + fotostiker6.src,});
@@ -129,4 +140,8 @@ if(warna2){
 <script src="https://feeldreams.github.io/heikm/script.js"></script>
 <!-- Sampai Sini -->
 </body>
+</html>
+    
+  </body>
+  
 </html>
